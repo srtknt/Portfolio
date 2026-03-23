@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  background-color: #6880ac;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  width: 100%;
+}
+
+header img {
+  height: 60px;
+  vertical-align: middle;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+nav {
+  background-color: #4f5b80;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #d9e1f2;
+}
+
+section {
+  max-width: 800px;
+  padding: 2rem;
+  text-align: center;
+}
+
+h2 {
+  color: #6880ac;
+  margin-top: 2rem;
+}
+
+p {
+  color: #333;
+  line-height: 1.6;
+}
+
+.timeline {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  top: 25px;
+  left: 10%;
+  right: 10%;
+  height: 4px;
+  background-color: #ccc;
+}
+
+.step {
+  background-color: #4f5b80;
+  color: white;
+  border: 3px solid #6880ac;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin: auto;
+}
+
+.label {
+  margin-top: 10px;
+  background-color: #d9e1f2;
+  padding: 0.5rem;
+  border-radius: 10px;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.skills div {
+  background-color: #f0f0f0;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 250px;
+  text-align: center;
+}
+
+footer {
+  background-color: #4f5b80;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  width: 100%;
+  margin-top: 2rem;
+}

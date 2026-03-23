@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  background-color: #e9edf3;
+  line-height: 1.6;
+  
+}
+
+a {
+  color: #2c3e50;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2c3f66;
+  text-decoration: underline;
+}
+
+header {
+  background: linear-gradient(#5892b5);
+  color: white;
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3.5rem;
+  margin: 0; 
+}
+
+
+header img.moi {
+  height: 90px;
+  border-radius: 20%;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+/* Navigation */
+nav {
+  background-color: #f0f0f0;
+  padding: 1rem 0;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+nav a {
+  margin: 0 12px;
+  font-size: 17px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+section {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+h2 {
+  font-size: 26px;
+  margin-top: 2.5rem;
+  color: #2c3e50;
+  border-bottom: 2px solid #6e9fc2;
+  padding-bottom: 0.5rem;
+}
+.a-propos .contenu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+.photo-moi {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.a-propos .texte {
+  max-width: 600px;
+  text-align: left;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.step {
+  font-weight: bold;
+  font-size: 18px;
+  color: #2980b9;
+}
+
+.label {
+  margin-left: 1rem;
+  color: #555;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.skills div {
+  background-color: rgba(204, 220, 230, 0.57);
+  padding: 1rem;
+  border-radius: 6px;
+  border-left: 5px solid #376773;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.contacts{
+  text-align-last: center;
+  
+}
+.cv {
+    display: block;       /* Permet de centrer l'image */
+    margin: 20px auto;    /* Centre l'image horizontalement */
+    max-width: 800px;     /* Largeur maximale pour que ce soit lisible */
+    width: 100%;          /* S'adapte si l'écran est plus petit que 800px */
+    height: auto;         /* Garde les proportions de l'image */
+    border: 1px solid #ccc; /* Optionnel : ajoute un petit cadre */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optionnel : ajoute une ombre pour l'esthétique */
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 14px;
+  color: #666;
+  background-color: #f9f9f9;
+  border-top: 1px solid #eee;
+  margin-top: 3rem;
+}
+
